@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="P2 Automações">
+  <rect width="64" height="64" rx="14" fill="#1646E0"/>
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M14 50V14H30A10 10 0 0 1 30 34H14"/>
+    <path d="M38 22A9 9 0 0 1 54 22L38 50H54"/>
+  </g>
+  <circle cx="54" cy="12" r="3" fill="#7FB0FF"/>
+</svg>

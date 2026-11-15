@@ -1,0 +1,19 @@
+{
+  "name": "p2-automacoes",
+  "version": "1.0.0",
+  "description": "Site institucional e painel administrativo da P2 Automações",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"tests/**/*.test.js\"",
+    "create-ceo": "node --disable-warning=ExperimentalWarning src/scripts/create-ceo.js",
+    "demo:load": "node --disable-warning=ExperimentalWarning src/scripts/demo-data.js",
+    "demo:clear": "node --disable-warning=ExperimentalWarning src/scripts/demo-data.js --clear"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "private": true
+}
