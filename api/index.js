@@ -1,15 +1,15 @@
 'use strict';
 
+const path = require('node:path');
 const { loadConfig } = require('../src/config');
 const { createApp } = require('../src/app');
 
-// No Vercel o sistema de arquivos é read-only exceto /tmp.
-// O banco fica em /tmp — dados são voláteis entre invocações frias.
 const config = loadConfig({
   skipEnvFile: false,
   dbPath: '/tmp/p2.sqlite',
   host: '0.0.0.0',
   trustProxy: 1,
+  root: path.resolve(__dirname, '..'),
 });
 
 const app = createApp(config);
